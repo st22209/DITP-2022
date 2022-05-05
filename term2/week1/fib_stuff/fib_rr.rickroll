@@ -1,0 +1,16 @@
+take me to ur heart
+    gonna fib number
+        and if u ask me how im feeling number is less than or equal to 1
+            when i give my number it will be completely
+        say goodbye
+
+        when i give my fib(number-1) + fib(number-2) it will be completely
+    say goodbye
+
+    give index up 0
+
+    together forever with index is less than 42
+        i just wanna tell u how im feeling f"{index}: {fib(index)}\n"
+        give index up index + 1
+    say goodbye
+say goodbye

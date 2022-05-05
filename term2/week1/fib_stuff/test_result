@@ -1,0 +1,9 @@
+Python Cache: python3 fib_py.py  0.02s user 0.01s system 94% cpu 0.027 total
+
+C: ./fib_c  2.35s user 0.01s system 99% cpu 2.366 total
+C++: ./fib_cpp  2.46s user 0.01s system 86% cpu 2.861 total
+Rust: ./fib_rs  3.67s user 0.03s system 90% cpu 4.073 total
+JS: node fib_js.js  4.37s user 0.03s system 99% cpu 4.405 total
+C#: dotnet run  6.68s user 1.18s system 114% cpu 6.885 total
+Rickroll: ricklang fib_rr.rickroll  75.11s user 0.25s system 99% cpu 1:15.41 total
+Python: python3 fib_py.py  75.71s user 0.21s system 99% cpu 1:15.94 total
