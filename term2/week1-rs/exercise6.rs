@@ -12,9 +12,8 @@ fn main() {
     println!("\n");
 
     for i in 0..width {
-        // let mut numbers = Vec::new();
         for e in 0..(i+1) {
-            print!("{}", e+1)
+            print!("{} ", e+1)
         }
         println!();
     }
