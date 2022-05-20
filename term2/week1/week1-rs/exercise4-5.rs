@@ -7,6 +7,4 @@ fn main() {
     let sum: usize = numbers.iter().sum();
     let average = sum as f32 / numbers.len() as f32;
     println!("Sum: {}\nAverage: {}", sum, average);
-
-
 }

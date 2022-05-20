@@ -15,9 +15,6 @@ int main()
         }
         printf("\n");
     }
-    
-
-
     return 0;
 }
 //  for i in (0..(width+1)).rev() {
