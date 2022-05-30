@@ -6,3 +6,13 @@ def factorial(n: int) -> int:
 
 
 print(factorial(5))
+
+# or 
+
+range_list = (list(reversed(range(1, 5))))
+
+total = 5
+for i in range_list:
+    total = i*total
+
+print(total)
