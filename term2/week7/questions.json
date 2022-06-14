@@ -1,12 +1,12 @@
 {
     "Is python an OOP language": true,
     "In Python 3, the maximum value for an integer is 263 - 1": false,
-    "Python is a case sensitive language": false,
+    "Python is a case sensitive language": true,
     "Python is a scripting language": true,
     "Python is a open source language": true,
     "Python is a compiled language": false,
     "Python is a interpreted language": true,
     "Python is a machine language": false,
-    "Python is written in C language": false,
+    "Python is written in C language": true,
     "Python is developed by Rick Astley": false
 }
