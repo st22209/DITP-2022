@@ -1,50 +1,50 @@
-# # class Person:
-# #     def __init__(self, firstname: str, lastname: str) -> None:
-# #         self.firstname = firstname
-# #         self.lastname = lastname
+class Person:
+    def __init__(self, firstname: str, lastname: str) -> None:
+        self.firstname = firstname
+        self.lastname = lastname
 
-# #     @property
-# #     def fullname(self):
-# #         return f"{self.firstname} {self.lastname}"
+    @property
+    def fullname(self):
+        return f"{self.firstname} {self.lastname}"
 
-# #     def say_hi(self):
-# #         print(f"{self.fullname} says never gonna give you up!")
+    def say_hi(self):
+        print(f"{self.fullname} says never gonna give you up!")
 
-# # person = Person("Rick", "Astley")
+person = Person("Rick", "Astley")
 
-# # print(person.firstname)
-# # print(person.fullname)
+print(person.firstname)
+print(person.fullname)
 
-# # person.say_hi()
-
-
-# # class CoolUsefulClass:
-# #     def __init__(self, x, y):
-# #         self.x = x
-# #         self.y = y
+person.say_hi()
 
 
-# #     def add(self):
-# #         return self.x + self.y
+class CoolUsefulClass:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
 
 
-# # super_cool_variable = CoolUsefulClass(10, 20)
-# # print(super_cool_variable.add())
-
-# class Person:
-#     def __init__(self, name, age):
-#         self.name = name
-#         self.age = age
-
-#     def __str__(self):
-#         return f"Hey! My name is {self.name} and I am {self.age} years old" 
+    def add(self):
+        return self.x + self.y
 
 
-# person1 = Person("Rick Astley", 42)
-# print(person1)
+super_cool_variable = CoolUsefulClass(10, 20)
+print(super_cool_variable.add())
 
-# del person1.age
-# print(person1.age)
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        return f"Hey! My name is {self.name} and I am {self.age} years old" 
+
+
+person1 = Person("Rick Astley", 42)
+print(person1)
+
+del person1.age
+print(person1.age)
 
 class Employee:
     def __init__(self, firstname, lastname, salary, emp_id):
@@ -84,32 +84,32 @@ def add(x: int, y: int) -> int:
     
     Returns
     -------
-        int 
-
+        int: The sum of the 2 numbers 
     """
     return x + y
 
 
-# class Manager(Employee):
-#     def __init__(self, firstname, lastname, salary, emp_id):
-#         super().__init__(firstname, lastname, salary, emp_id)
+class Manager(Employee):
+    def __init__(self, firstname, lastname, salary, emp_id):
+        super().__init__(firstname, lastname, salary, emp_id)
         
-#         self.employee_list = []
+        self.employee_list = []
 
-#     def add_employee(self, employee):
-#         self.employee_list.append(employee)
+    def add_employee(self, employee):
+        self.employee_list.append(employee)
 
-#     def remove_employee(self, employee):
-#         self.employee_list.remove(employee)
+    def remove_employee(self, employee):
+        self.employee_list.remove(employee)
 
-#     # Overwrite the Employee classes str method with our own:
-#     def __str__(self):
-#         return f"Manager Info: Manager is cool"
+    # Overwrite the Employee classes str method with our own:
+    def __str__(self):
+        return f"Manager Info: Manager is cool"
 
-# manager1 = Manager("Person", "Lastname", 100_000, 1)       
-# manager1.add_employee(employee1)
-# manager1.add_employee(employee2)
 
-# print(manager1.employee_list)
-# print(manager1.employee_list[0].salary)
+manager1 = Manager("Person", "Lastname", 100_000, 1)       
+manager1.add_employee(employee1)
+manager1.add_employee(employee2)
+
+print(manager1.employee_list)
+print(manager1.employee_list[0].salary)
 
