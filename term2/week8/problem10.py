@@ -4,6 +4,7 @@ def printlabel(size):
     print(" ******size " + str(size) + " *****")
     print("|______________________|")
 
+
 sizes = [6, 8, 10, 12, 14, 16, 18, 20]
 
 for size in sizes:

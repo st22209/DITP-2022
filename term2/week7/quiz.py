@@ -53,7 +53,7 @@ for question, answer in questions_and_answers.items():
 
     console.print("[red]Wrong!")
     time.sleep(1)
-    
+
 
 os.system("clear")
 

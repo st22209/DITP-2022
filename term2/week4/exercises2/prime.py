@@ -6,5 +6,6 @@ def is_prime(num: int) -> bool:
         return True
     return False
 
+
 print(is_prime(5))
 print(is_prime(20))

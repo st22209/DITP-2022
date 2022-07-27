@@ -17,11 +17,13 @@ else:
 
 # 8b
 
-def apply(credits : int, age : int) -> None:
+
+def apply(credits: int, age: int) -> None:
     if age >= 20:
         print("You can apply")
     elif age >= 16 and credits >= 60:
         print("You can apply with restricted entry")
+
 
 age = int(input("What is your age? "))
 credits = int(input("How many NCEA Level 3 credits do you have? "))

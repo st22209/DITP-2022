@@ -3,8 +3,10 @@ def problem_14():
     book_name = input("What is the name of the book you got? ")
     book_price = float(input("What is the price of the book? "))
 
-    print(f"""Summary:\nInitial Gift Card Balance: {gift_value}\n
-    Book Name: {book_name}\nBook Price: {book_price}\n\nGift card balance now: {round(gift_value - book_price, 2)}""")
+    print(
+        f"""Summary:\nInitial Gift Card Balance: {gift_value}\n
+    Book Name: {book_name}\nBook Price: {book_price}\n\nGift card balance now: {round(gift_value - book_price, 2)}"""
+    )
 
 
 def problem_15():
@@ -12,6 +14,5 @@ def problem_15():
 
     def cups(g):
         return round(g / 125, 2)
-    
-    print(f"Cups: {cups(grams)}")
 
+    print(f"Cups: {cups(grams)}")

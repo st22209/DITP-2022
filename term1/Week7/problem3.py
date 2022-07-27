@@ -8,11 +8,11 @@ try:
 except ValueError:
     print("You must enter a number")
 
-if have_you_been.lower() in ['yes', 'y']:
+if have_you_been.lower() in ["yes", "y"]:
     print("You cannot give blood")
     quit()
 
 if age > 16 and weight > 50:
     print("You can give blood")
 else:
-    print("You cannot give blood")  
+    print("You cannot give blood")

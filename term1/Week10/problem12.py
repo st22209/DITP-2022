@@ -14,7 +14,7 @@ weeks = 0
 os.system("clear")
 
 while savings < target:
-    extra = (salary-bills)
+    extra = salary - bills
 
     weeks += 1
     time.sleep(0.1)

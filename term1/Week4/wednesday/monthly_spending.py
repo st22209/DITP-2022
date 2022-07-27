@@ -3,7 +3,7 @@ try:
     transport = float(input(f"How much do you spend on Transport: "))
     food = float(input(f"How much do you spend on Food: "))
     rent = float(input(f"How much do you spend on Rent: "))
-    
+
     total = clothes + transport + food + rent
 
     print(f"Total expenses: {total}")

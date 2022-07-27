@@ -1,16 +1,18 @@
 player_a, player_b = 0, 0
 
 for i in range(10):
-    print("Round", (i+1))
+    print("Round", (i + 1))
     winner = input("Who won? (A/B) ").lower()
-    knockout = input(f"Did player {winner} knockout player {'B' if winner == 'a' else 'A'}? (Y/N): ").lower()
+    knockout = input(
+        f"Did player {winner} knockout player {'B' if winner == 'a' else 'A'}? (Y/N): "
+    ).lower()
     if knockout == "Y":
-        if winner == "a": 
+        if winner == "a":
             player_a += 10
         else:
             player_b += 10
     else:
-        if winner == "a": 
+        if winner == "a":
             player_a += 10
             player_b += 9
         else:

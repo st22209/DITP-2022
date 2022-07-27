@@ -80,7 +80,7 @@
 #         print(i * j, end=' ')
 #     print('')
 
-# months = ["January", "June", 
+# months = ["January", "June",
 #     "March", "April"]
 # for mon in months:
 #     pass

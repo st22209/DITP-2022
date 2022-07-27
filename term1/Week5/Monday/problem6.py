@@ -6,6 +6,6 @@ long_track = 4.50
 
 print(f"Initial Balance: ${bal}")
 
-new_bal = bal - ((3*short_track) + (4*medium_track) + (2*long_track))
+new_bal = bal - ((3 * short_track) + (4 * medium_track) + (2 * long_track))
 
 print(f"New Balance: ${new_bal}")

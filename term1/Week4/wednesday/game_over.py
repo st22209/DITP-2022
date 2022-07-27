@@ -1,2 +1,1 @@
-print("game over\n"*5)
-
+print("game over\n" * 5)

@@ -1,5 +1,6 @@
 # make a person class that has 3 attributes: firstname, lastname, and age
 
+
 class Person:
     def __init__(self, firstname, lastname, age):
         self.firstname = firstname

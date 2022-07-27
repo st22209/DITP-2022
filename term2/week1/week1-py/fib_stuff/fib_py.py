@@ -1,5 +1,6 @@
 from functools import cache
 
+
 @cache
 def fib(n):
     if n <= 1:
@@ -9,4 +10,3 @@ def fib(n):
 
 for i in range(100000000000000):
     print(i, fib(i))
-

@@ -10,7 +10,7 @@ try:
     temp = int(temp)
     age = int(age)
 except ValueError:
-    print('Age and temperature must be an int')
+    print("Age and temperature must be an int")
 
 if age < 3 and temp > 38:
     print("Call a doctor")
@@ -18,4 +18,3 @@ if age > 3 and temp > 39.5:
     print("High fever")
 else:
     print("Your temperature is okay, check again in an hour.")
-

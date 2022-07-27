@@ -6,5 +6,6 @@ def is_prime(num):
         return True
     return False
 
+
 number = int(input("Enter a number: "))
 print(f"Number is {'prime' if is_prime(number) else 'not prime'}")

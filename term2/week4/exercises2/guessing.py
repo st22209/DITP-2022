@@ -1,5 +1,6 @@
 import random
 
+
 def guess_game() -> None:
     number = random.randint(1, 100)
     tries = 0

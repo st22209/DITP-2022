@@ -1,7 +1,7 @@
 width = int(input("Enter width: "))
 
 for i in range(width):
-    print(" ".join([str((e+1)) for e in range((i+1))]) + " " * (width - i))
+    print(" ".join([str((e + 1)) for e in range((i + 1))]) + " " * (width - i))
 
 print()
 

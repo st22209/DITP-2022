@@ -15,7 +15,7 @@ print("Ok\nDo you play cricket?")
 
 yes_or_no = input("> ")
 
-if yes_or_no.lower() not in ['yes', 'y']:
+if yes_or_no.lower() not in ["yes", "y"]:
     print("Ok")
     sys.exit(0)
 
@@ -23,7 +23,9 @@ print("What do you like more, Bowling or batting? ")
 
 player_type = input("> ")
 
-print(f"Thats cool, I like {player_type} too\nHow long have you been playing (in years)")
+print(
+    f"Thats cool, I like {player_type} too\nHow long have you been playing (in years)"
+)
 
 long = int(input("> "))
 
@@ -51,4 +53,6 @@ advice = input("> ")
 
 print("Ok i will use that to be better when i play too")
 
-print(f"It has been fun talking to you {name}\nI gotta go now but thanks for speaking to me :)")
+print(
+    f"It has been fun talking to you {name}\nI gotta go now but thanks for speaking to me :)"
+)

@@ -1,6 +1,7 @@
 import numpy
 from collections import Counter
 
+
 def average(lst):
     return sum(lst) / len(lst)
 
@@ -10,7 +11,7 @@ def median(lst):
     index = n // 2
     if n % 2:
         return sorted(lst)[index]
-    return sum(sorted(lst)[index - 1:index + 1]) / 2
+    return sum(sorted(lst)[index - 1 : index + 1]) / 2
 
 
 def mode(lst):
@@ -21,12 +22,12 @@ def mode(lst):
 def quartiles(lst):
     quartiles = numpy.quantile(lst, [0, 0.25, 0.5, 0.75, 1])
     quartiles = list(quartiles)
-    
+
     new_data = {
-        "Minimum" : quartiles[0],
-        "Maximum" : quartiles[4],
-        "LQ" : quartiles[1],
-        "UQ" : quartiles[3]
+        "Minimum": quartiles[0],
+        "Maximum": quartiles[4],
+        "LQ": quartiles[1],
+        "UQ": quartiles[3],
     }
 
     return new_data

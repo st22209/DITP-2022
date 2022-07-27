@@ -10,5 +10,6 @@ def fizz():
             print("buzz")
             continue
         print(fizzbuzz)
-        
+
+
 fizz()

@@ -8,5 +8,5 @@ if home > visitor:
     print("The home team won")
 elif visitor > home:
     print("The vistor team won")
-else:  
+else:
     print("it was a draw")
